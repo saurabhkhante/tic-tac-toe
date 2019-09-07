@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');  
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: #82F3FF;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;                         /* Positon relative given to the parent div */
+    border: 2px solid #2F5780;
+    border-radius: 4px;
+}
+
+/*
+#user-selection {
+    display: block;
+    margin: 0 auto;
+    background: #FFE6A1;
+    width: 70%;
+    height: 70%;
+    color: white;                             this is font color 
+    font-size: 200px;
+    font-family: Asap, sans-serif;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    border-radius: 4px; 
+}
+*/
+/*
+#xbadge {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: #2F5780;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    position: absolute;                          
+    top: 10px ;
+    left: 10px ;
+    border: 2px solid #2F5780;
+    border-radius: 4px;
+}
+
+#obadge {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: #2F5780;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 10px ;
+    right: 10px;
+    border: 2px solid #2F5780;
+    border-radius: 4px;
+}
+*/
+
+body{
+    font-family: Asap, sans-serif;
+    background: #FFFD5E;
+    color : #18298C;
+}
+
+table{
+    width: 100%;
+}
+
+tr {
+    height: 33vh ;
+}
+
+.cell {
+    margin: 2px;
+    text-align: center;
+    border:2px solid #2F5780;
+    border-radius: 8px;
+    position: relative;
+    width: 33vw;
+}
+
+.user-selection {
+    font-size: 5em;
+}
+
+.xbox, .obox {
+    color: #F2E205;
+    border-radius: 4px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #3805F2;
+    position: absolute;
+    top: 10px;
+    
+    
+}
+.xbox{
+    left: 10px;
+}
+.obox {
+    right: 10px;
+}
